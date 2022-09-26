@@ -175,3 +175,4 @@ cython_debug/
 
 # Our custom paths and files
 /node_modules
+!package.json
