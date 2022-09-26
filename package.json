@@ -1,12 +1,12 @@
 {
   "name": "mahsaamini_server",
-  "version": "1.0.12",
+  "version": "1.0.15",
   "description": "",
   "main": "./src/server.js",
   "license": "GPL-3.0+",
   "scripts": {
     "start": "npm version patch --no-git-tag-version && cross-env NODE_ENV=development nodemon ./src/server",
-    "server": "node ./src/server",
+    "server": "cross-env node ./src/server",
     "test": "cross-env NODE_ENV=development mocha"
   },
   "dependencies": {
