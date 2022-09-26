@@ -1,6 +1,6 @@
 // 1- env file
 require('dotenv').config(
-	{ path: process.env?.NODE_ENV === "development" ? ".env.development" : undefined }
+	{ path: process.env?.NODE_ENV === "development" ? ".env.development" : ".env" }
 )
 
 // 2- Port
