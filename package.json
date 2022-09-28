@@ -1,6 +1,6 @@
 {
   "name": "mahsaamini_server",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "",
   "main": "./src/server.js",
   "license": "GPL-3.0+",
